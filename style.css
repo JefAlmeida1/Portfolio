@@ -12,9 +12,6 @@ header{
     margin: 10px;
     border-radius: 10px 10px 10px 10px;
 }
-header img{
-    width: 20%;
-}
 nav{
     background-color: #000000b9;
     padding: 10px;
@@ -42,6 +39,9 @@ nav > a.css0:hover{
 nav > a.pyt:hover{
     background-color: #0540F2;
     color: #D2D904;
+}
+img.ban{
+    width: 320px;
 }
 body{
     background-image: linear-gradient(to bottom, #024873, #03658C, #03738C, #9FA6A5, #F2ECE4);
