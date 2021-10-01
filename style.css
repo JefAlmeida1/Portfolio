@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@media (max-width: 768px){
+    .box{
+        width: 250px;
+    }
+}
 header{
     font-family: Georgia, Times, 'Times New Roman', serif ;
     text-align: center;
