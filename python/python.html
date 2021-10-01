@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//style.css">
+    <link rel="shortcut icon" href="python_io/favicon.ico" type="image/x-icon">
+    <title>Python</title>
+</head>
+<body class="py1">
+    <header class="py2">
+        <picture>
+            <source media="(max-width: 250px)" srcset="py3.png" type="image/png">
+            <img src="py3.png" alt="" title="Logo Python">
+        </picture>
+    </header>
+    <nav>
+        <a class="ini" href="..//index.html">Pagina Inicial</a>
+        <a class="html0" href="..//html5/html5.html">HTML5</a>
+        <a class="css0" href="..//css3/css3.html">CSS3</a>
+
+    </nav>
+    <main>
+    <article>
+        <h1 class="pyt0">Python</h1>
+        <p><strong>Python</strong> é uma linguagem de programação de alto nível, interpretada de <a href="https://pt.wikipedia.org/wiki/Linguagem_de_script" target="_blank">script</a>, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por <a href="https://pt.wikipedia.org/wiki/Guido_van_Rossum">Guido van Rossum</a> em 1991. Atualmente, possui um modelo de desenvolvimento comunitário, aberto e gerenciado pela organização sem fins lucrativos <strong>Python Software Foundation</strong>. Apesar de várias partes da linguagem possuírem padrões e especificações formais, a linguagem, como um todo, não é formalmente especificada. O padrão de facto é a implementação CPython.</p>
+        <p>Existe diversos software para usar a linguagem Python, mas eu pessoalmente recomendo o proprio Python e o Pychamr da Jet Brains. Primeiro instala o Pyhton após o donwload e depois instala o Pycharm.</p>
+        <p>Links para donwload:</p>
+        <ul>
+            <li>
+                <a href="https://www.python.org/" target="_blank">Python</a>
+               
+            </li>
+            <li>
+                <a href="https://www.jetbrains.com/pt-br/pycharm/download/#section=windows" target="_blank">Pycharm</a>
+            </li>
+        </ul>
+        <p>Os links vão direcionar ao site oficial para baixar os softwares. Assista ao vídeo mostrando a instalação do programa.</p>
+        <p><div class="py3"><iframe width="560" height="315" src="https://www.youtube.com/embed/VuKvR1J2LQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></p>
+        
+        <p><h2>Variável</h2></p>
+        <p>Variáveis são espaços reservados na memoria para armazenar dados/informações que são usados na execução do programa. A variável pode ter números reais, números inteiros, caracteres, frases e etc.</p>
+        <p>Exemplo:</p>
+            <pre>
+            <code>
+                nome = input('Digite o seu nome: ')
+                print('Seja bem-vindo', nome)
+            </code></pre>
+            <p>No exemplo de cima a variável constada foi "nome" no caso do Python toda variável é um <b>objeto</b>. Toda variável pode receber valores pelo "recebe", esse recebe é simbolizado pelo sinal de <b>igual</b> (=). O "input" seria a sintaxe para ler a entrada que o usuário digitou e armazenou na variável. As <b>aspas simples</b> (‘) servem para leitura, colocando entre aspas o programa vai entender que é leitura. O print é a parte mais importante no Python, ele vai <b>mostrar as informações</b> na qual foram passados.</p>
+            <p>Sendo assim o resultado do exemplo acima sairia desta forma:</p>
+            <p>
+                <picture class="pyimg">
+                    <source media="(max-width: 1000px)" srcset="exemplo.jpg" type="image/jpg">
+                    <source media="(max-width: 650px)" srcset="exemplo.jpg" type="image/jpg">
+                    <img src="exemplo.jpg" alt="" title="Exemplo">
+                </picture>
+            </p>
+            <p>Como informado antes, no print foi digitado entre parênteses (‘Seja bem-vindo’, nome) sendo que tudo que estiver digitado dentro das aspas o programa vai interpretar como leitura, o “nome” seria a variável. Sendo assim, a função print exibiu na tela todas as informações que foram passadas.</p>
+        <h2>Sintaxe</h2>
+        <p>A <strong>sintaxe</strong> da linguagem de programação <b>Python</b> é o conjunto de regras que definem como um programa em Python será escrito e interpretado(tanto pelo sistema de tempo de execução como pelo ser humano).</p>
+        <p><h2>Exemplo de Sintaxe Básica</h2></p>
+        <p>Veja abaixo algumas sintaxes que são usados no Python.</p>
+        <table class="py4">
+            <tr><td>Sintaxe</td><td>Funções</td></tr>
+            <tr><td>input</td><td>lê a entrada que o usuário digitou e armazenou na variável</td></tr>
+            <tr><td>pint</td><td>serve para mostra as informações que foram passadas  e vai exibir na sua tela</td></tr>
+            <tr><td>int</td><td>converte um dado string para um número inteiro</td></tr>
+            <tr><td>float</td><td>armazena número com ponto flutuante (reais) com precisão simples</td></tr>
+            <tr><td>bool</td><td>armazena os valores verdadeiros ou falsos, existem apenas dois tipos de valores booleanos. Eles são True (verdadeiro) e False (falso)</td></tr>
+            <tr><td>str (string)</td><td>serve para dar retornar representações de valores que sejam legíveis para as pessoas</td></tr>
+            <tr><td>format()</td><td>Serve basicamente para criar uma string que contem campos entre chaves {} que são substituídos pelos argumentos de format</td></tr>
+        </table>
+        <p><h2>Operadores Aritiméticos</h2></p>
+        <p><strong>Operadores</strong> são símbolos especiais que representam computações como adição, multiplicação e divisão. Os valores sobre os quais o operador trabalha são chamados de operandos.</p>
+        <ul>
+            <li>Adição: +</li>
+            <li>Subtração: -</li>
+            <li>Multiplicação: *</li>
+            <li>Divisão: /</li>
+            <li>Exponenciação (Potência): **</li>
+            <li>Divisão inteira: //</li>
+            <li>Resto da Divisão: %</li>
+        </ul>
+        <p>Exemplos de expressões matematicas em Python</p>
+        <pre>
+            <code>
+                #soma 
+                print(10+2)
+                Resultado: 12
+            </code>
+            <code>
+                #Subtração
+                print(4-2)
+                Resultado: 2
+            </code>
+            <code>
+                #multiplicação 
+                print(5*2)
+                Resultado: 10
+            </code>
+            <code>
+                #Divisão 
+                print(5/2)
+                Resultado: 2.5
+            </code>
+            <code>
+                #Potência
+                print(5**2)
+                Resultado: 25
+            </code>
+            <code>
+                #Divisão inteira
+                print(5//2)
+                Resultado: 2
+            </code>
+            <code>
+                #Resto da Divisão 
+                print(5%2)
+                Resultado: 1
+            </code>
+        </pre>
+        <p>Veja o vídeo abaixo com a explicação.</p>
+        <p><div class="py3"><iframe width="560" height="315" src="https://www.youtube.com/embed/Vw6gLypRKmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></p>
+        <p><h2>Condições</h2></p>
+        <p>Uma condição na linguagem Python é definida como uma expressão que pode ser <b>verdadeira</b> ou <b>falsa</b>. A este tipo de expressão dá-se o nome de expressão <strong>relacional</strong> ou <strong>comparação</strong>. Por exemplo, 3 &gt;2 uma expressão relacional que possui valor verdadeiro. Por outro lado, 4 &lt;1 é uma expressão que possui valor falso.</p>
+        <p><h2>Estrutura de Condição</h2></p>
+        <p>if: é uma estrutura de condição que permite avaliar uma expressão e, de acordo com seu resultado, executa uma determinada ação.</p>
+        <p>elif: serve para verifica outra condição caso a condição do if seja falsa.</p>
+        <p>else: é utilizado para executar um bloco de código, caso o resultado da expressão informada na introdução if seja falso. Vale ressaltar que a introdução else só pode ser utilizada em conjunto com o if. Perceba que também precisamos utiliza o caractere <b>dois-pontos (:)</b> após a expressão da introdução if e após o else.</p>
+        <p>Exemplo:</p>
+        <pre>
+        <code>
+            if expressão_for_verdadeiro:
+                Executar_primeiro_bloco_de_código ()
+            else:
+                Executara_segundo_bloco_de_código ()
+
+        </code></pre>
+        <h2>Operadores de Comparação</h2>
+        <p>Todas as expressões utilizada no comando <strong>if/else</strong> são testadas por meio de condições lógicas semelhantes as expressões matemáticas. Elas fazem a comparação entre duas <strong>variáveis</strong> ou <strong>expressões</strong>.</p>
+        <h3>Tabela</h3>
+        <table class="py4">
+            <tr><td>Símbolo</td><td>Definição</td></tr>
+            <tr><td>==</td><td>Igual</td></tr>
+            <tr><td>!=</td><td>Diferente</td></tr>
+            <tr><td>&gt;</td><td>Maior que</td></tr>
+            <tr><td>&lt;</td><td>Menor que</td></tr>
+            <tr><td>&gt;=</td><td>Maior ou Igual que</td></tr>
+            <tr><td>&lt;=</td><td>Menor ou Igual que</td></tr>
+        </table>
+        <p>igual: é utilizado para comparar duas variáveis ou expressões. Ela é representada pelo sinal de iguais duas vezes “==”.</p>
+        <pre>
+            <code>
+                A=10
+                if == 10:
+                    print('Verdadeiro')
+                else:
+                    print('Falso')
+                Resultado: Verdadeiro
+            </code>
+        </pre>
+        <p>Não igual/Diferente: a verificação de diferença entre dois termos é feita com a utilização dos símbolos de exclamação e igual ”!=”.</p>
+        <pre>
+            <code>
+                A=10
+                if !=10:
+                    print('Verdadeiro')
+                esle:
+                    print('Falso')
+                Resultado: Falso
+            </code>
+        </pre>
+        <p>Maior que: o operador maior “&gt;” é utilizado para verificar se o primeiro termo é maior que o segundo.</p>
+           <pre>
+               <code>
+                A=10
+                B=20
+                if a&gt;b:
+                    print(‘Verdadeiro’)
+                else:
+                    print(‘Falso’)
+                Resultado: Falso
+               </code>
+           </pre>
+           <p>Menor que: o operador menor “&lt;” é utilizado para indicar se o primeiro termo é menor que o segundo.</p>
+           <pre>
+               <code>
+                    A=10
+                    B=10
+                    if a&lt;b:
+                        print(‘Verdadeiro’)
+                    else:
+                        print('Falso')
+                    Resultado: Verdadeiro
+               </code>
+           </pre>
+           <p>Maior ou igual: o operador maior ou igual “&gt;=” é utilizado para realiza essa verificação entre o primeiro e o segundo.</p>
+           <pre>
+               <code>
+                A=10
+                B=10
+                if a&gt;=b:
+                    print(‘Verdadeiro’)
+                else: 
+                    print(‘Falso’)
+                Resultado: Verdadeiro
+               </code>
+           </pre>
+           <p>Menor ou igual: o operador menor ou igual “&lt;=” é utilizado para realizar essa comparação entre o primeiro e o segundo termo.</p>
+           <pre>
+               <code>
+                A=10
+                B=10
+                if a&lt;=B:
+                    print(‘Verdadeiro’)
+                else:
+                    print(‘Falso’)
+                Resultado: Verdadeiro
+                </code>
+           </pre>
+           <p><h3>Gostaria de saber mais?</h3></p>
+           <p>Assista os videos aula do <a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6" target="_blank">CursoemVideo</a> feito pelo professor Gustavo Guanabara.</p>
+        <p>Os curso são totalmente gratuitos e caso você queira o certificado após o termino do curso, precisa fazer o cadastro no <a href="https://www.cursoemvideo.com/" target="_blank">site</a> do próprio curso em video e fazer os cursos.</p>
+        <p>
+            <ul>
+                <li>Canal do <a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="+black">Curso em Video</a> </li>
+                <li>Site do Curso em Video: <a href="https://www.cursoemvideo.com/" target="_black">https://www.cursoemvideo.com</a></li>
+                <li>Lista completa do curso Python: <a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6" target="_black">Playlist</a></li>
+            </ul> 
+         </p>
+         <p>Atualmente o curso Python tem 3 módulos e para cada módulo tem o <b>certificado valido</b> informando as 40 horas concluídas. Futuramente o canal pode lançar mais módulos.</p>
+        <p><b>OBS</b>: algumas informaçãos do material foi tirada durante as aulas do curso em video. Este site tem a intenção de compartilha conhecimento <b>sem fins lucrativo</b>. Quanto mais pessoas principalmente iniciantes souber desta facilicitação de conteúdo, melhor. Nem todo mundo tem boas condições para pagar um curso ou faculdade.</p>
+    </article> 
+    <a class="py6" href="..//index.html">Voltar</a>
+    </main>
+    <footer>
+        <p>Site desenvolvido por Jerfeson Almeida</p>
+    </footer> 
+</body>
+</html>

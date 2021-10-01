@@ -1,0 +1,196 @@
+@charset "UTF-8";
+header{
+    font-family: Georgia, Times, 'Times New Roman', serif ;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+nav{
+    background-color: #000000b9;
+    padding: 10px;
+    box-shadow: 0px 7px 9px black;
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s; 
+}
+nav > a:hover{
+    background-color: #fffffffa;
+    color: rgba(0, 0, 0, 0.897);
+}
+nav > a.html0:hover{
+    background-color: #F25C05;
+    color: white;
+}
+nav > a.css0:hover{
+    background-color: #03738C;
+    color: white;
+}
+nav > a.pyt:hover{
+    background-color: #0540F2;
+    color: #D2D904;
+}
+body{
+    background-image: linear-gradient(to bottom, #024873, #03658C, #03738C, #9FA6A5, #F2ECE4);
+}
+h1 {
+    text-align: center;
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+main{
+    min-width: 380px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 0px 10px rgba(0, 0, 0, 0.363);
+    
+}
+main img {
+    width: 100%;
+    
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+header.html2{
+    background-color: white;
+    
+
+}
+body.html1{
+    background-image: linear-gradient(to bottom, #591607, #A62F03,  #D95204, #F29849, #F2AA52);
+}
+h1.htmlt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1cm;
+}
+div.html3{
+    background-color: black;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.html3 > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+a.html6{
+    color: #9e4a01;
+}
+header.css4{
+    background-color: #ffffff;
+    color: white;
+    
+}
+h1.csst{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 1cm;
+}
+body.css1{
+    background-image: linear-gradient(to bottom, #001E33, #003357, #002B4A, #005896, #007DD6);
+
+}
+div.cssvd{
+    background-color: black;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.cssvd > iframe{ 
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+a.css5{
+    color: rgb(7, 0, 112);
+}
+header.py2{
+    background-color: white;
+    
+}
+body.py1{
+    background-image: linear-gradient(to bottom,#023373, #0468BF, #056CF2, #F28705, #F2B705);
+}
+h1.pyt0{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 1cm;
+}
+div.py3{
+    background-color: black;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.py3 > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+table.py4 {
+    margin: 10px;
+    background-color: black;
+}
+table tr{
+    background-color: white;
+}
+a.py6{
+    color: blue;
+}
+picture.pyimg{
+    position: relative;
+    top: 5%;
+    right: 5%;
+}
+  
+strong.g{
+    color: #4285F4;
+}
+strong.o{
+    color: #EA4335;
+}
+strong.o2{
+    color: #FBBC05;
+}
+strong.g2{
+    color: #4285F4;
+}
+strong.l{
+    color: #34A853;
+}
+strong.e{
+    color: #EA4335;
+}
