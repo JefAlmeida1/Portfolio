@@ -84,7 +84,7 @@ footer{
     background-color: black;
     color: white;
 }
-ul > li{
+ul > li.cont{
     list-style: none;
     color: #237ebe;
 
