@@ -84,14 +84,12 @@ footer{
     background-color: black;
     color: white;
 }
-.cont{
+ul > li{
     list-style: none;
     color: #237ebe;
 
 }
-.cont > a{
-    color: #007DD6;
-}
+
 header.html2{
     background-color: white;
     
