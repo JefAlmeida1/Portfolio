@@ -86,6 +86,10 @@ footer{
 }
 .cont{
     list-style: none;
+    color: #237ebe;
+
+}
+.cont > a{
     color: #007DD6;
 }
 header.html2{
