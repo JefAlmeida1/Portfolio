@@ -208,3 +208,26 @@ strong.l{
 strong.e{
     color: #EA4335;
 }
+
+/* pg do projeto*/
+body.prod1{
+    background-color: #0a3a5c;
+}
+.prod2{
+    background-color: rgb(216, 219, 219);
+}
+.prod3{
+    text-align: center;
+}
+.prod4{
+    text-align: center;
+    transition: 0.5s;
+    color: rgb(3, 3, 3);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.prod4:hover{
+    background-color: #1249c0fa;
+    color: rgba(255, 255, 255, 0.897);
+}
