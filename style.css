@@ -89,7 +89,7 @@ ul > li.cont{
     color: #237ebe;
 
 }
-
+/*pg do HTML*/
 header.html2{
     background-color: white;
     
@@ -118,7 +118,19 @@ div.html3 > iframe{
 }
 a.html6{
     color: #9e4a01;
+    text-align: center;
+    transition: 0.5s;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
+a.html6:hover{
+    background-color: orange;
+    color: rgba(0, 0, 0, 0.897);
+}
+
+/*pg do CSS3*/
+
 header.css4{
     background-color: #ffffff;
     color: white;
@@ -147,8 +159,18 @@ div.cssvd > iframe{
     height: 90%;
 }
 a.css5{
+    text-align: center;
+    transition: 0.5s;
     color: rgb(7, 0, 112);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
+a.css5:hover{
+    background-color: #06369efa;
+    color: rgba(255, 255, 255, 0.897);
+}
+/*pg do python*/
 header.py2{
     background-color: white;
     
