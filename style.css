@@ -43,7 +43,7 @@ nav > a.pyt:hover{
 img.ban{
     width: 320px;
 }
-body{
+body.principal{
     background-image: linear-gradient(to bottom, #024873, #03658C, #03738C, #9FA6A5, #F2ECE4);
 }
 h1 {
