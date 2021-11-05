@@ -262,3 +262,25 @@ body.prod1{
     background-color: #1249c0fa;
     color: rgba(255, 255, 255, 0.897);
 }
+
+/*livro*/
+.livro1{
+    text-align: center;
+    font-family: 'Arial Blcak';
+    color: darkred;
+}
+.livro2{
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+.livro3{
+    
+    padding-left: 26rem;
+    padding-right: 26rem;
+}
