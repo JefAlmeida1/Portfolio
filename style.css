@@ -268,19 +268,37 @@ body.prod1{
     text-align: center;
     font-family: 'Arial Blcak';
     color: darkred;
+    
 }
 .livro2{
     padding: 2rem;
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: red;
-    color: white;
     padding: 8px;
     border-radius: 4px;
 }
-.livro3{
-    
-    padding-left: 26rem;
-    padding-right: 26rem;
+button.btn-botao-livro{
+    background-color: darkred;
+}
+button.btn-botao-livro:hover{
+    background-color: red;
+}
+
+
+/*localizador*/
+
+.localizador{
+    text-align: center;
+    font-family: 'Arial Blcak';
+    color: #0C2E59;
+}
+
+.localizador2{
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border-radius: 4px;
 }
