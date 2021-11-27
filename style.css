@@ -44,7 +44,7 @@ img.ban{
     width: 320px;
 }
 body.principal{
-    background-image: linear-gradient(to bottom, #024873, #03658C, #03738C, #9FA6A5, #F2ECE4);
+    background-image: url(./inicial/code-swirl.jpg);
 }
 h1 {
     text-align: center;
@@ -242,7 +242,7 @@ strong.e{
 
 /* pg do projeto*/
 body.prod1{
-    background-color: #0a3a5c;
+    background-image: url(./inicial/pexels-japyassu.jpg);
 }
 .prod2{
     background-color: rgb(216, 219, 219);
