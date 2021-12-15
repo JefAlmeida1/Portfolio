@@ -41,10 +41,14 @@ nav > a.pyt:hover{
     color: #D2D904;
 }
 img.ban{
-    width: 320px;
+    width: 100%;
 }
 body.principal{
+    height: 100vh;
     background-image: url(./inicial/code-swirl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 h1 {
     text-align: center;
