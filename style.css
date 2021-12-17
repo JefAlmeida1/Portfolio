@@ -44,8 +44,9 @@ img.ban{
     width: 100%;
 }
 body.principal{
-    height: 100vh;
-    background-image: url(./inicial/code-swirl.jpg);
+    background-color: #030f1f;
+    height: 90vh;
+    background-image: url(./inicial/pexels-xxss-is-back-777001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
