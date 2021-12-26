@@ -3,20 +3,39 @@
     .box{
         width: 250px;
     }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+}
+
 header{
     font-family: Georgia, Times, 'Times New Roman', serif ;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to left, #049CFE, #0554B9, #041C66, #052069, #020F48);
     padding: 0px;
     margin: 10px;
     border-radius: 10px 10px 10px 10px;
+    text-decoration: none;
+    
 }
+
+.html-h1{
+    color: white;
+}
+
+.html-p-header{
+    color: white;
+}
+
 nav{
-    background-color: #000000b9;
+    background-image: linear-gradient(to left, #049CFE, #0554B9, #041C66, #052069, #020F48);
     padding: 10px;
-    box-shadow: 0px 7px 9px black;
+    box-shadow: 0px 7px 9px #2C98F7;
+    border-radius: 20px;
 }
+
 nav > a {
     color: white;
     padding: 10px;
@@ -28,28 +47,28 @@ nav > a:hover{
     background-color: #fffffffa;
     color: rgba(0, 0, 0, 0.897);
 }
+
 nav > a.html0:hover{
     background-color: #F25C05;
     color: white;
 }
+
 nav > a.css0:hover{
     background-color: #03738C;
     color: white;
 }
+
 nav > a.pyt:hover{
     background-color: #0540F2;
     color: #D2D904;
 }
+
 img.ban{
-    width: 100%;
+    width: 320px;
 }
+
 body.principal{
-    background-color: #030f1f;
-    height: 90vh;
-    background-image: url(./inicial/pexels-xxss-is-back-777001.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-image: linear-gradient(to left, #049CFE, #0554B9, #041C66, #052069, #020F48);
 }
 h1 {
     text-align: center;
@@ -65,9 +84,9 @@ main{
     min-width: 380px;
     max-width: 1000px;
     margin: auto;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
-    box-shadow: 0px 0px 0px 0px 10px rgba(0, 0, 0, 0.363);
+    box-shadow: 0px 7px 9px #2C98F7;
     
 }
 main img {
@@ -86,14 +105,21 @@ footer{
     margin: 10px;
     border-radius: 10px 10px 10px 10px;
     padding: 5px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.897);
     color: white;
+    text-decoration: none;
 }
+
+footer a {
+    text-decoration: none;
+}
+
 ul > li.cont{
     list-style: none;
     color: #237ebe;
 
 }
+
 /*pg do HTML*/
 header.html2{
     background-color: white;
@@ -101,8 +127,9 @@ header.html2{
 
 }
 body.html1{
-    background-image: linear-gradient(to bottom, #591607, #A62F03,  #D95204, #F29849, #F2AA52);
+    background-image: linear-gradient(to left, #049CFE, #0554B9, #041C66, #052069, #020F48);
 }
+
 h1.htmlt{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1cm;
@@ -135,7 +162,6 @@ a.html6:hover{
 }
 
 /*pg do CSS3*/
-
 header.css4{
     background-color: #ffffff;
     color: white;
@@ -146,7 +172,7 @@ h1.csst{
     font-size: 1cm;
 }
 body.css1{
-    background-image: linear-gradient(to bottom, #001E33, #003357, #002B4A, #005896, #007DD6);
+    background-image: linear-gradient(to left, #049CFE, #0554B9, #041C66, #052069, #020F48);
 
 }
 div.cssvd{
@@ -175,13 +201,14 @@ a.css5:hover{
     background-color: #06369efa;
     color: rgba(255, 255, 255, 0.897);
 }
+
 /*pg do python*/
 header.py2{
     background-color: white;
     
 }
 body.py1{
-    background-image: linear-gradient(to bottom,#023373, #0468BF, #056CF2, #F28705, #F2B705);
+    background-image: linear-gradient(to left, #049CFE, #0554B9, #041C66, #052069, #020F48);
 }
 h1.pyt0{
     font-family:Georgia, 'Times New Roman', Times, serif ;
@@ -246,8 +273,24 @@ strong.e{
 }
 
 /* pg do projeto*/
+
+.pro-header{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #2C98F7;
+}
+
+.nav-pro{
+    border-radius: 0px 10px 10px 10px;
+    box-shadow: 0px 7px 0px #2C98F7;
+}
+
+.pro-header-h1{
+    color: white;
+}
+
 body.prod1{
-    background-image: url(./inicial/pexels-japyassu.jpg);
+    background-color: black;
+    background-image: url(./Inicial/pexels-japyassu.jpg);
 }
 .prod2{
     background-color: rgb(216, 219, 219);
@@ -307,3 +350,4 @@ button.btn-botao-livro:hover{
     padding: 8px;
     border-radius: 4px;
 }
+
