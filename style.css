@@ -289,8 +289,8 @@ strong.e{
 }
 
 body.prod1{
-    background-color: black;
-    background-image: url(../Portfolio/inicial/pexels-japyassu.jpg);
+    background-image: linear-gradient(to left, #049CFE, #0554B9, #041C66, #052069, #020F48);
+    
 }
 .prod2{
     background-color: rgb(216, 219, 219);
