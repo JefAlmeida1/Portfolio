@@ -7,18 +7,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, 'Roboto';
 }
 }
 
 header{
-    font-family: Georgia, Times, 'Times New Roman', serif ;
     text-align: center;
-    background-image: linear-gradient(to left, #049CFE, #0554B9, #041C66, #052069, #020F48);
     padding: 0px;
     margin: 10px;
-    border-radius: 10px 10px 10px 10px;
     text-decoration: none;
-    
 }
 
 .html-h1{
@@ -30,18 +27,22 @@ header{
 }
 
 nav{
-    background-image: linear-gradient(to left, #049CFE, #0554B9, #041C66, #052069, #020F48);
+    background-color: white;
     padding: 10px;
-    box-shadow: 0px 7px 9px #2C98F7;
-    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-right: 23.3%;
+    margin-left: 23.4%;
 }
 
 nav > a {
-    color: white;
+    color: black;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5s; 
+    text-align: center;
+    justify-items: right;
+
 }
 nav > a:hover{
     background-color: #fffffffa;
@@ -67,12 +68,14 @@ img.ban{
     width: 320px;
 }
 
-body.principal{
-    background-image: linear-gradient(to left, #049CFE, #0554B9, #041C66, #052069, #020F48);
+body.principal, body.html1, .css1 , .py1, .prod1{
+    background-image: linear-gradient(to bottom, #cff0f0, #bfdacf, #c7dacb, #93BFB7);
 }
+
 h1 {
     text-align: center;
 }
+
 main p {
     margin: 15px 0px;
     text-align: justify;
@@ -80,26 +83,29 @@ main p {
     line-height: 2em;
     font-size: 1em;
 }
+
 main{
     min-width: 380px;
     max-width: 1000px;
     margin: auto;
     background-color: rgb(255, 255, 255);
-    padding: 20px;
-    box-shadow: 0px 7px 9px #2C98F7;
-    
+    padding: 20px;    
 }
+
 main img {
     width: 50%;
     
 }
+
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto';
     font-size: 1.2em;
 }
+
 h3{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto';
 }
+
 footer{
     text-align: center;
     margin: 10px;
@@ -110,7 +116,7 @@ footer{
     text-decoration: none;
 }
 
-footer a {
+footer li {
     text-decoration: none;
 }
 
@@ -120,20 +126,31 @@ ul > li.cont{
 
 }
 
+dd > a{
+    text-decoration: none;
+}
+
 /*pg do HTML*/
 header.html2{
     background-color: white;
-    
-
 }
-body.html1{
-    background-image: linear-gradient(to left, #049CFE, #0554B9, #041C66, #052069, #020F48);
+
+.html-log, .css-logo, .py-logo{
+    width: 70px;
+}
+.log-html, .log-css, .python-log{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
 }
 
 h1.htmlt{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1cm;
 }
+
 div.html3{
     background-color: black;
     margin: 0px -20px 30px -20px;
@@ -141,6 +158,7 @@ div.html3{
     padding-bottom: 50%;
     position: relative;
 }
+
 div.html3 > iframe{
     position: absolute;
     top: 5%;
@@ -171,10 +189,7 @@ h1.csst{
     font-family:Georgia, 'Times New Roman', Times, serif ;
     font-size: 1cm;
 }
-body.css1{
-    background-image: linear-gradient(to left, #049CFE, #0554B9, #041C66, #052069, #020F48);
 
-}
 div.cssvd{
     background-color: black;
     margin: 0px -20px 30px -20px;
@@ -207,9 +222,7 @@ header.py2{
     background-color: white;
     
 }
-body.py1{
-    background-image: linear-gradient(to left, #049CFE, #0554B9, #041C66, #052069, #020F48);
-}
+
 h1.pyt0{
     font-family:Georgia, 'Times New Roman', Times, serif ;
     font-size: 1cm;
@@ -274,27 +287,6 @@ strong.e{
 
 /* pg do projeto*/
 
-.pro-header{
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px #2C98F7;
-}
-
-.nav-pro{
-    border-radius: 0px 10px 10px 10px;
-    box-shadow: 0px 7px 0px #2C98F7;
-}
-
-.pro-header-h1{
-    color: white;
-}
-
-body.prod1{
-    background-image: linear-gradient(to left, #049CFE, #0554B9, #041C66, #052069, #020F48);
-    
-}
-.prod2{
-    background-color: rgb(216, 219, 219);
-}
 .prod3{
     text-align: center;
 }
